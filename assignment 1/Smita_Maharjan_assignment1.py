@@ -1,4 +1,6 @@
-# Variables and Input:
+# Part 1:
+ 
+# Variables and Input
 # 1. Create a variable my_age and assign your age to it. Print a message using this variable.
 
 my_age = 20
@@ -23,21 +25,27 @@ favourite food:  apple
 # 1. Convert the string "42" to an integer and print the result.
 
 st = "42"
-print("the integer is",int(st))
+st = int(st)
+print("the integer is", st)
+print(type(st))
 
 """
 output:
 the integer is 42
+<class 'int'>
 """
 
 # 2. Convert the floating-point number 3.14159 to a string and print the result.
 
 fl = 3.14159
-print("the string is",str(fl))
+fl = str(fl)
+print("the string is",fl)
+print(type(fl))
 
 """
 output:
 the string is 3.14159
+<class 'str'>
 """
 
 # Strings:
